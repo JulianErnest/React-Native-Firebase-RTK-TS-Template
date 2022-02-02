@@ -1,1 +1,0 @@
-# React-Native-Firebase-RTK-TS-Template
