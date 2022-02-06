@@ -1,10 +1,10 @@
-import React from 'react'
-import { NavigationContainer } from '@react-navigation/native'
-import { Provider } from 'react-redux'
+import React from 'react';
+import {NavigationContainer} from '@react-navigation/native';
+import {Provider} from 'react-redux';
 
-import { navigationRef } from './src/Navigation/NavigationUtils'
-import store from './src/State/store'
-import MainNavigator from './src/Navigation/MainNavigator'
+import {navigationRef} from './src/Navigation/NavigationUtils';
+import store from './src/State/store';
+import MainNavigator from './src/Navigation/MainNavigator';
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
         <MainNavigator />
       </NavigationContainer>
     </Provider>
-  )
-}
+  );
+};
 
-export default App
+export default App;

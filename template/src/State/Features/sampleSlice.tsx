@@ -1,17 +1,17 @@
-import {createAsyncThunk, createSlice} from '@reduxjs/toolkit'
+import {createAsyncThunk, createSlice} from '@reduxjs/toolkit';
 
 type SampleSlice = {
-    hello: string
-}
+  hello: string;
+};
 
 const initialState: SampleSlice = {
-    hello: ''
-}
+  hello: '',
+};
 export const sampleSlice = createSlice({
-        name: 'sampleSlice',
-        initialState,
-        reducers: {},
-        extraReducers: builder => {}
-})
+  name: 'sampleSlice',
+  initialState,
+  reducers: {},
+  extraReducers: builder => {},
+});
 
-export default sampleSlice.reducer
+export default sampleSlice.reducer;
